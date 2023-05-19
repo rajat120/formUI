@@ -1,0 +1,96 @@
+
+.title{
+    color: #50C878;
+}
+.form__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+@media  (max-width: 600px) {
+    .form__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: none;
+    
+      
+    }
+}
+
+
+.input{
+    width: 500px;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-style: solid;
+    border-color: green; 
+        
+    
+}
+
+@media (max-width: 600px)  {
+    .input{
+        margin-left: 3rem;
+        width: 20rem;
+    }
+}
+.label{
+    margin-bottom: 0.3rem;
+    color: #50C878;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+@media (max-width: 600px) {
+    .label{
+        margin-bottom: 0.3rem;
+        color: #50C878;
+        font-size: 1rem;
+        font-weight: 900;
+        margin-left: 3rem;
+    }
+}
+#cattle{
+    width: 510px;
+    height: 2rem;
+    margin-bottom: 1rem;
+     outline: none;
+    border: 2px solid green
+}
+
+@media (max-width: 600px)  {
+    #cattle{
+        width: 327px;
+        margin-left: 3rem;
+    }
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  
+}
+.btn_submit{
+    width: 100%; 
+    background-color: #50C878;
+    height: 2rem;
+    color: wheat;
+   outline: none;
+   border-radius: 1rem;
+   margin-bottom: 1rem;
+ 
+
+}
+
+@media (max-width:600px){
+    .btn_submit{
+        width: 20rem;
+        margin-left: 3rem;
+        outline: none;
+    }
+}
