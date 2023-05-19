@@ -1,14 +1,26 @@
 
 .title{
     color: #50C878;
-}
-.form__container{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.column{
+    width: 33.3%;
+}
+.form__container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
   
 }
+
 @media  (max-width: 600px) {
     .form__container{
         display: flex;
@@ -22,12 +34,13 @@
 
 
 .input{
-    width: 500px;
+    /* width: 100%; */
     height: 1.5rem;
     margin-bottom: 1rem;
     outline: none;
     border-style: solid;
     border-color: green; 
+    border-radius: 0.3rem;
         
     
 }
@@ -39,10 +52,11 @@
     }
 }
 .label{
-    margin-bottom: 0.3rem;
-    color: #50C878;
+    /* margin-bottom: 0.3rem; */
+    color: #000;
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 500;
+    margin-left: 0.2rem;
 }
 
 @media (max-width: 600px) {
@@ -55,11 +69,12 @@
     }
 }
 #cattle{
-    width: 510px;
+    /* width: 100%; */
     height: 2rem;
     margin-bottom: 1rem;
      outline: none;
-    border: 2px solid green
+    border: 2px solid green;
+    border-radius: 0.3rem;
 }
 
 @media (max-width: 600px)  {

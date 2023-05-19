@@ -13,37 +13,49 @@ const FarmerDetails = () => {
 
 				<div>
 					<form>
-						<div className="label">
-							<label htmlFor="FarmId">FarmerId </label>
-						</div>
-						<input className="input" type="text" placeholder="123" />
-						<div className="label">
-							<label htmlFor="FarmerID">FarmerFirstName</label>
-						</div>
-						<input className="input" type="text" placeholder="John" />
-						<div className="label">
-							<label htmlFor="Producer Name">FarmerMiddleName</label>
-						</div>
-						<input className="input" type="text" placeholder="kumar" />
-						<div className="label">
-							<label htmlFor="ProducerstateOrTerritory">FarmerLastName</label>
-						</div>
-						<input className="input" type="text" placeholder="singh" />
+						<div className="row">
+							<div className="label">
+								<label htmlFor="FarmId">FarmerId </label>
+								<br />
+								<input className="input" type="text" placeholder="123" />
+							</div>
 
-						<div className="label">
-							<label htmlFor="Producer Country">FarmerGender</label>
+							<div className="label">
+								<label htmlFor="FarmerID">FarmerFirstName</label>
+								<br />
+								<input className="input" type="text" placeholder="John" />
+							</div>
+
+							<div className="label">
+								<label htmlFor="Producer Name">FarmerMiddleName</label>
+								<br />
+								<input className="input" type="text" placeholder="kumar" />
+							</div>
 						</div>
-						<select name="country" id="cattle">
-							<option value="yes">Male</option>
-							<option value="No">Female</option>
-						</select>
-						<div className="label">
-							<label htmlFor="hasProducerDateChange">FarmerContact -</label>
+
+						<div className="row">
+							<div className="label">
+								<label htmlFor="ProducerstateOrTerritory">FarmerLastName</label>
+								<br />
+								<input className="input" type="text" placeholder="singh" />
+							</div>
+
+							<div className="label">
+								<label htmlFor="Producer Country">FarmerGender</label>
+								<br />
+								<select name="country" id="cattle">
+									<option value="yes">Male</option>
+									<option value="No">Female</option>
+								</select>
+							</div>
+
+							<div className="label">
+								<label htmlFor="hasProducerDateChange">MobileNumber</label>
+								<br />
+								<input className="input" type="text" placeholder="8885666777" />
+							</div>
 						</div>
-						<div className="label">
-							<label htmlFor="hasProducerDateChange">MobileNumber</label>
-						</div>
-						<input className="input" type="text" placeholder="8885666777" />
+
 						<div className="label">
 							<label htmlFor="ProducerStartDate">HomeNumber</label>
 						</div>

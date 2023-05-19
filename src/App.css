@@ -1,13 +1,4 @@
 .App{
-  background-image: url("https://media.istockphoto.com/id/502663169/photo/scottish-wheat-field.jpg?s=612x612&w=0&k=20&c=E95gTgMakVgZj0XnUyWhma_NjrGisTZT_LoLZmco9z8="); 
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-attachment: fixed;       
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height:100%;
-  width:100%; 
-
+ 
 
 }
